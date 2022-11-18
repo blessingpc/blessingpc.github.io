@@ -38,6 +38,7 @@ body.parallax.content-2::before{
 }
 
 header{
+    width: 100%;
     background: #1A2238;
     color: #eaeaea;
     display: flex;
@@ -114,10 +115,12 @@ nav ul{
 .tittle{
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 .description{
     font-size: 28px;
     font-weight: bolder;
+    text-align: center;
 }
 .img-1 {
     width: 50%;
@@ -132,7 +135,7 @@ nav ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 101vh;
+    height: 100%;
 
 }
 .content{
@@ -160,20 +163,24 @@ nav ul{
     letter-spacing: 10px;
     font-family:  'Silkscreen', cursive;
     color: white;
+.title1{
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    text-align: center;
 }
 .socials{
     width: auto;
-    height: 30vh;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    height: 15vh;
+    display: flex;
     flex-direction: column;
-    padding-left: 38vh;
+    padding-left: 5vh;
 }
 .socials-link{
     position: relative;
-    width: 22vh;
-    height: 22vh;
+    width: 10vh;
+    height: 10vh;
     background:  linear-gradient(to right, orange, #ec38bc, #7303c0, cyan);
     display: inline-flex;
     font-size: 24px;
@@ -183,13 +190,13 @@ nav ul{
     transition: scale 0.15s;
 }
 .imge{
-    height:22vh ;
-    width: 22vh;
+    height: 10vh ;
+    width: 10vh;
     border-radius: 50%;
 }
 .imge1{
-    height: 22vh;
-    width: 22vh;
+    height: 10vh;
+    width: 10vh;
     border-radius: 50%;
 }
 
